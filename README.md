@@ -23,7 +23,84 @@ The analysis investigates:
 
 Python, Pandas, Matplotlib and Seaborn are used to clean, explore, analyse and visualise the data.
 
+## Understanding the Biological Context
 
+No previous knowledge of membrane protein biology is required to understand this project. The main concepts used in the analysis are explained below.
+
+### Biological Membranes
+
+A biological membrane can be thought of as a thin boundary separating one biological environment from another.
+
+The plasma membrane, for example, surrounds a cell and separates the inside of the cell from its external environment. Cells also contain internal membranes surrounding structures such as mitochondria, the endoplasmic reticulum and lysosomes.
+
+Different organisms also have different membrane systems. For example, Gram-negative bacteria contain both inner and outer membranes.
+
+### Membrane Proteins
+
+Membrane proteins are proteins associated with biological membranes. Some pass completely through a membrane, while others interact only with its surface.
+
+A protein can cross a membrane once or many times. Proteins containing many membrane-spanning segments can form large and structurally complex membrane protein systems.
+
+### Membrane Environment
+
+In this project, `membrane_name_cache` describes the membrane environment associated with each structure.
+
+Examples include:
+
+- eukaryotic plasma membrane;
+- Gram-negative bacterial inner membrane;
+- Gram-negative bacterial outer membrane;
+- mitochondrial inner membrane;
+- endoplasmic reticulum;
+- thylakoid membrane;
+- viral membranes;
+- and secreted proteins.
+
+These categories allow structural properties to be compared between different biological environments.
+
+### Protein Families
+
+Proteins with related structures or functions can be grouped into protein families.
+
+For example, G-protein coupled receptors (GPCRs) form a large family of membrane proteins involved in cellular signalling.
+
+Analysing protein families helps identify which types of proteins are particularly well represented in the structural dataset.
+
+### Membrane Thickness
+
+Membrane thickness describes the estimated thickness of the membrane region associated with a protein structure.
+
+Comparing thickness across membrane environments can reveal whether proteins associated with different types of membranes occupy structurally different membrane regions.
+
+### Protein Tilt
+
+Tilt describes the orientation of a protein relative to the membrane.
+
+A low tilt value indicates a different orientation relative to the membrane than a high tilt value. Comparing tilt distributions can therefore reveal differences in how proteins are positioned within or relative to membranes.
+
+### Membrane-Spanning Segments
+
+`subunit_segments` represents the number of membrane-spanning segments associated with a structure.
+
+In this project, this variable is used as an approximate indicator of structural complexity. A protein or protein complex containing many membrane-spanning segments is generally structurally more complex than one containing only a few.
+
+### Structural Resolution
+
+Structural resolution describes the level of structural detail available for an experimentally determined protein structure and is commonly reported in Ångströms (Å).
+
+An Ångström is a very small unit of length equal to 0.1 nanometres.
+
+Importantly:
+
+**A smaller numerical resolution value generally represents finer structural detail, while a larger value represents lower structural detail.**
+
+For example, a structure determined at 2 Å generally contains finer structural information than one determined at 5 Å.
+
+### Gibbs Free Energy
+
+The dataset also contains a Gibbs free-energy variable (`gibbs`).
+
+In this project, Gibbs free energy is treated as a numerical structural property supplied by the source dataset. Relationships between this variable and other structural properties are explored statistically without assuming that correlation represents a causal biological mechanism.
 
 
 
