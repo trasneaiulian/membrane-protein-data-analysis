@@ -4,31 +4,24 @@
 
 ## Project Overview
 
-Membrane proteins perform essential biological functions, including transport, signalling, energy conversion, and communication between cells and their environment. They are also important targets for pharmaceutical research.
+Membrane proteins are proteins that interact with or are embedded in biological membranes. Biological membranes form boundaries around cells and many structures inside cells. They separate different environments while allowing cells to communicate, transport substances, produce energy, and respond to signals.
 
-This project explores a structural membrane-protein dataset derived from the OPM (Orientations of Proteins in Membranes) database. The analysis investigates how membrane proteins are distributed across different membrane environments and protein families and explores relationships between structural properties such as membrane thickness, protein tilt, structural complexity, Gibbs free energy, and structural resolution.
+Membrane proteins are therefore involved in many essential biological processes. Examples include receptors that allow cells to respond to hormones or other signals, channels that allow ions to cross membranes, transporters that move molecules into and out of cells, and proteins involved in energy production.
 
-The project uses Python-based data cleaning, exploratory data analysis, statistical correlation analysis, and data visualisation to identify patterns within the dataset.
+They are also particularly important in medicine because many therapeutic drugs act on membrane proteins.
 
-## Project Objectives
+Studying membrane proteins experimentally can be challenging because their interaction with membranes makes them more difficult to isolate and characterise than many soluble proteins. Structural databases provide an opportunity to examine large numbers of experimentally studied membrane proteins and identify broader patterns in their structural properties.
 
-The main objectives of this project are to:
+This project performs an exploratory data analysis of membrane protein structural data obtained from the OPM (Orientations of Proteins in Membranes) database.
 
-- clean and prepare the membrane-protein dataset for analysis;
-- investigate which membrane environments and protein families are most represented;
-- compare structural properties across different membrane environments;
-- investigate whether structural complexity is associated with structural resolution;
-- identify relationships between numerical structural properties;
-- present the findings using clear statistical summaries and visualisations.
+The analysis investigates:
 
-## Research Questions
+- which membrane environments and protein families are most represented;
+- how structural properties differ between membrane environments;
+- whether structural complexity is associated with structural resolution;
+- and which structural properties show meaningful relationships with each other.
 
-The analysis addresses four research questions:
-
-1. Which membrane environments and protein families are most represented in the dataset?
-2. How do structural properties such as membrane thickness, tilt, and resolution differ between membrane environments?
-3. Is structural complexity, represented by the number of membrane-spanning segments, associated with structural resolution?
-4. Which numerical structural properties show meaningful relationships with each other?
+Python, Pandas, Matplotlib and Seaborn are used to clean, explore, analyse and visualise the data.
 
 
 
