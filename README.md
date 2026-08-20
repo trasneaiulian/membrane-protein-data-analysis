@@ -1,5 +1,39 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+# Membrane Protein Structural Data Analysis
+
+## Project Overview
+
+Membrane proteins perform essential biological functions, including transport, signalling, energy conversion, and communication between cells and their environment. They are also important targets for pharmaceutical research.
+
+This project explores a structural membrane-protein dataset derived from the OPM (Orientations of Proteins in Membranes) database. The analysis investigates how membrane proteins are distributed across different membrane environments and protein families and explores relationships between structural properties such as membrane thickness, protein tilt, structural complexity, Gibbs free energy, and structural resolution.
+
+The project uses Python-based data cleaning, exploratory data analysis, statistical correlation analysis, and data visualisation to identify patterns within the dataset.
+
+## Project Objectives
+
+The main objectives of this project are to:
+
+- clean and prepare the membrane-protein dataset for analysis;
+- investigate which membrane environments and protein families are most represented;
+- compare structural properties across different membrane environments;
+- investigate whether structural complexity is associated with structural resolution;
+- identify relationships between numerical structural properties;
+- present the findings using clear statistical summaries and visualisations.
+
+## Research Questions
+
+The analysis addresses four research questions:
+
+1. Which membrane environments and protein families are most represented in the dataset?
+2. How do structural properties such as membrane thickness, tilt, and resolution differ between membrane environments?
+3. Is structural complexity, represented by the number of membrane-spanning segments, associated with structural resolution?
+4. Which numerical structural properties show meaningful relationships with each other?
+
+
+
+
+
 ## Template Instructions
 
 Welcome,
