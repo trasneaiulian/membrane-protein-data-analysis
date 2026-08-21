@@ -268,6 +268,28 @@ The most represented family is **G-protein coupled receptors, family A**, with 6
 
 This concentration is biologically interesting because several highly represented families are important signalling, transport or energy-conversion proteins. However, their frequency in this dataset represents structural database coverage rather than their biological abundance.
 
+### 2. How do structural properties differ between membrane environments?
+
+Clear differences were observed in membrane thickness and protein tilt between membrane environments.
+
+Most major transmembrane environments have median membrane thickness values approximately between 24 and 31 Å.
+
+Eukaryotic plasma membrane proteins have a median thickness of approximately 31 Å, while thylakoid, Gram-positive inner-membrane and Gram-negative inner-membrane proteins also have median values close to 30 Å.
+
+Secreted and Undefined structures show much lower thickness values than the main transmembrane categories.
+
+A violin plot was used to visualise membrane thickness because several categories contain complex distributions. Unlike a simple boxplot, the violin plot makes it easier to see where observations are concentrated within each group.
+
+Protein tilt also differs substantially between membrane environments.
+
+Most major membrane categories have relatively low median tilt values, whereas the Secreted and Undefined categories contain substantially higher values.
+
+Structural resolution varies less dramatically between membrane environments than thickness or tilt.
+
+Among records with numerical resolution information, median resolution values for the major categories are generally around 2–3 Å.
+
+These findings indicate that structural properties are associated with membrane environment, although they do not demonstrate that membrane environment directly causes these differences.
+
 
 ## Template Instructions
 
