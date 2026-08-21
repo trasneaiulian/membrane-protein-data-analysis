@@ -338,6 +338,28 @@ The Spearman correlations were generally stronger than the corresponding Pearson
 
 Again, these correlations identify statistical relationships. They do not establish biological causation.
 
+## Conclusions
+
+The project demonstrates that a large structural membrane-protein dataset can reveal clear patterns in both database composition and structural characteristics.
+
+The main conclusions are:
+
+1. **The dataset is highly unevenly represented.**  
+Eukaryotic plasma membrane proteins and several major protein families, particularly family A GPCRs, account for substantial proportions of the available structures.
+
+2. **Membrane environment is associated with structural differences.**  
+Membrane thickness and protein tilt differ substantially between membrane environments, while structural resolution shows smaller differences.
+
+3. **Structural complexity is associated with structural resolution.**  
+The number of membrane-spanning segments shows a moderate monotonic association with numerical structural resolution.
+
+4. **Structural properties are interconnected.**  
+Strong relationships exist between membrane-spanning segment count, Gibbs free energy, protein tilt and membrane thickness.
+
+The project therefore shows that membrane protein structures cannot be considered as a single homogeneous group. Their structural characteristics vary according to biological context and are related to other measurable structural properties.
+
+At the same time, the analysis is exploratory. The observed relationships describe patterns within the dataset and should not be interpreted as demonstrating causal biological mechanisms.
+
 
 ## Template Instructions
 
