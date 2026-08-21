@@ -311,6 +311,33 @@ Because a higher resolution value in Å corresponds to lower structural detail, 
 
 This relationship should be interpreted as an association rather than evidence that structural complexity directly causes lower structural resolution.
 
+### 4. Which structural properties are related?
+
+The correlation analysis identified several strong relationships between numerical structural properties.
+
+The strongest Spearman relationship was observed between the number of membrane-spanning segments and Gibbs free energy:
+
+**Spearman ρ = -0.925**
+
+This represents a very strong negative monotonic association.
+
+Protein tilt also shows strong relationships with structural complexity and Gibbs free energy:
+
+- tilt vs membrane-spanning segments: **ρ = -0.813**
+- tilt vs Gibbs free energy: **ρ = 0.807**
+
+Membrane thickness is also associated with several structural variables:
+
+- thickness vs membrane-spanning segments: **ρ = 0.590**
+- thickness vs tilt: **ρ = -0.634**
+- thickness vs Gibbs free energy: **ρ = -0.694**
+
+Structural resolution shows more moderate relationships with the other structural variables.
+
+The Spearman correlations were generally stronger than the corresponding Pearson correlations for several variable pairs. This suggests that some relationships in the dataset are monotonic but not strongly linear.
+
+Again, these correlations identify statistical relationships. They do not establish biological causation.
+
 
 ## Template Instructions
 
