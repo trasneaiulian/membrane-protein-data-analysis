@@ -161,6 +161,68 @@ After data cleaning, the dataset used for analysis contains **8,914 records and 
 
 Not every variable is used in the exploratory analysis. Variables were selected according to their relevance to the four research questions.
 
+## Data Cleaning and Preparation
+
+Before exploratory analysis, the dataset was examined for formatting problems, missing information, duplicate records and potentially unusual numerical values.
+
+The cleaning process was designed to preserve valid scientific information rather than automatically removing unusual observations.
+
+### PDB Identifiers
+
+PDB identifiers contained formatting introduced by the original data export. These identifiers were cleaned into a consistent format so that structures could be identified reliably.
+
+### Structural Resolution
+
+The original `resolution` variable contained both numerical and non-numerical information.
+
+A separate `resolution_numeric` variable was therefore created for analyses requiring numerical resolution values.
+
+Where a numerical resolution was unavailable, the value was retained as missing rather than artificially estimated.
+
+### Missing Values
+
+Missing values were examined individually according to the meaning of each variable.
+
+Values were not automatically replaced with averages or other estimated values when there was insufficient evidence to justify imputation.
+
+For example, missing values in `topology_subunit` were investigated in relation to the number of membrane-spanning segments. The majority of records with missing topology information had zero membrane-spanning segments, but exceptions were also present. Missing topology values were therefore retained rather than replaced with an assumed category.
+
+Missing values in uncertainty-related variables such as `thicknesserror` and `tilterror` were also retained when no reliable replacement could be justified.
+
+### Duplicate Records
+
+Potential duplicate PDB identifiers were investigated rather than immediately deleted.
+
+Where apparently duplicated structures contained differences in database metadata or represented separate records, they were retained to avoid removing potentially valid information without sufficient evidence.
+
+### Text Formatting
+
+Leading and trailing whitespace was identified in categorical text fields such as protein family and species names and removed to prevent identical categories from being treated as different values.
+
+### Numerical Validation
+
+Important numerical variables were checked for impossible or unusual values.
+
+The analysis included checks for:
+
+- negative membrane thickness;
+- negative protein tilt;
+- tilt values above 90 degrees;
+- negative membrane-spanning segment counts;
+- and unusually large uncertainty values.
+
+Extreme values were inspected rather than automatically removed. Where there was no evidence that an observation represented a data-entry error, it was retained.
+
+### Cleaning Principle
+
+The overall cleaning strategy followed a conservative principle:
+
+> **Unusual scientific observations should not be removed simply because they are statistical outliers.**
+
+This is particularly important for biological structural data, where unusual structures may represent genuine and scientifically interesting observations.
+
+
+
 ## Template Instructions
 
 Welcome,
