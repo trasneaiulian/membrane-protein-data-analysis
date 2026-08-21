@@ -221,6 +221,34 @@ The overall cleaning strategy followed a conservative principle:
 
 This is particularly important for biological structural data, where unusual structures may represent genuine and scientifically interesting observations.
 
+## Exploratory Data Analysis
+
+The cleaned dataset was explored using descriptive statistics and visualisation.
+
+The analysis used:
+
+- frequency counts for categorical variables;
+- summary statistics including means and medians;
+- bar charts to examine category representation;
+- violin plots to examine structural-property distributions;
+- scatter plots to examine relationships between numerical variables;
+- Pearson correlation to examine linear relationships;
+- Spearman correlation to examine monotonic relationships;
+- and correlation heatmaps to summarise relationships between structural properties.
+
+Both Pearson and Spearman correlations were considered because several variables contain skewed distributions and extreme values.
+
+Pearson correlation measures the strength of a linear relationship between two numerical variables.
+
+Spearman correlation is based on ranked values and can identify monotonic relationships even when the relationship is not strongly linear. It is also less sensitive to extreme values.
+
+Correlation coefficients range from -1 to +1:
+
+- values close to +1 indicate a strong positive association;
+- values close to -1 indicate a strong negative association;
+- values close to 0 indicate little or no monotonic or linear association, depending on the correlation method used.
+
+Correlation does not demonstrate that one variable causes another.
 
 
 ## Template Instructions
