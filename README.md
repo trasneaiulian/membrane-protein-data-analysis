@@ -360,6 +360,48 @@ The project therefore shows that membrane protein structures cannot be considere
 
 At the same time, the analysis is exploratory. The observed relationships describe patterns within the dataset and should not be interpreted as demonstrating causal biological mechanisms.
 
+## Limitations
+
+Several limitations should be considered when interpreting this project.
+
+### Unequal Group Sizes
+
+Membrane environments and protein families contain very different numbers of structures.
+
+A category containing thousands of structures provides much more information than one containing only a few records. Direct comparisons should therefore be interpreted carefully.
+
+### Database Representation Is Not Biological Abundance
+
+A protein family being common in the dataset does not necessarily mean that it is equally common in living organisms.
+
+Structural databases are influenced by scientific interest, experimental feasibility and the availability of experimentally determined structures.
+
+### Missing Resolution Information
+
+Not every structure has a numerical resolution value.
+
+Records without suitable numerical resolution information were excluded only from analyses that specifically required numerical resolution. Missing values were not artificially imputed.
+
+### Extreme Values
+
+Several numerical variables contain extreme observations.
+
+These values were retained when there was no evidence that they represented errors. Biological structural datasets can contain genuinely unusual structures, so statistical outliers should not automatically be treated as invalid observations.
+
+### Structural Complexity
+
+The number of membrane-spanning segments was used as an approximate measure of structural complexity.
+
+Real protein structural complexity is more complicated and can also depend on factors such as protein size, number of subunits, domain organisation and interactions with other molecules.
+
+### Correlation Is Not Causation
+
+The project identifies associations between structural variables.
+
+For example, finding that structures with more membrane-spanning segments tend to have different resolution values does not prove that the number of segments directly causes the difference in resolution.
+
+Other biological and experimental factors may contribute to the observed relationships.
+
 
 ## Template Instructions
 
