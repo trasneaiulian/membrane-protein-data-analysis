@@ -402,6 +402,55 @@ For example, finding that structures with more membrane-spanning segments tend t
 
 Other biological and experimental factors may contribute to the observed relationships.
 
+## Repository Structure
+
+The project is organised into separate folders for data and analysis notebooks.
+
+```text
+membrane-protein-data-analysis/
+│
+├── data/
+│   └── proteins_cleaned.csv
+│
+├── jupyter_notebooks/
+│   ├── 01_data_cleaning.ipynb
+│   └── 02_data_analysis.ipynb
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
+
+Jupyter Notebooks
+01_data_cleaning.ipynb
+
+Contains the data-cleaning workflow, including:
+
+initial inspection of the dataset;
+missing-value investigation;
+PDB identifier cleaning;
+structural resolution preparation;
+duplicate investigation;
+text-field cleaning;
+numerical validation;
+and export of the cleaned dataset.
+02_data_analysis.ipynb
+
+Contains the exploratory data analysis, including:
+
+dataset overview;
+research questions;
+membrane-environment analysis;
+protein-family analysis;
+comparison of structural properties;
+structural complexity and resolution analysis;
+Pearson and Spearman correlation analysis;
+visualisations;
+interpretations;
+conclusions;
+limitations;
+and potential next steps.
+
+
 
 ## Template Instructions
 
