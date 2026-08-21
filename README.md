@@ -250,6 +250,24 @@ Correlation coefficients range from -1 to +1:
 
 Correlation does not demonstrate that one variable causes another.
 
+## Key Findings
+
+### 1. Which membrane environments and protein families are most represented?
+
+The dataset is not evenly distributed across membrane environments.
+
+The largest membrane-environment category is **eukaryotic plasma membrane**, containing 3,316 records. Other strongly represented categories include secreted proteins and Gram-negative bacterial inner-membrane proteins.
+
+Some membrane environments contain only a small number of structures.
+
+This means that the dataset should not be interpreted as showing how common different membrane proteins are in nature. Instead, it reflects the structures represented in the OPM dataset.
+
+The protein-family distribution is also highly uneven.
+
+The most represented family is **G-protein coupled receptors, family A**, with 664 records. Other strongly represented families include transient receptor potential channels, V-type and F-type ATPases, NADH dehydrogenases and glutamate-gated ion channels.
+
+This concentration is biologically interesting because several highly represented families are important signalling, transport or energy-conversion proteins. However, their frequency in this dataset represents structural database coverage rather than their biological abundance.
+
 
 ## Template Instructions
 
