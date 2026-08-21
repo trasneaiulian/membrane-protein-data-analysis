@@ -130,7 +130,36 @@ The exploratory analysis addresses four research questions:
 
 4. **Which numerical structural properties show meaningful relationships with each other?**
 
+## Dataset
 
+The project uses structural membrane protein data obtained from the **OPM (Orientations of Proteins in Membranes) database**.
+
+OPM provides information about experimentally determined protein structures and their relationships with biological membranes.
+
+The original dataset contains thousands of structural records and includes biological, structural and database-related information.
+
+Some of the most important variables used in this project are:
+
+| Variable | Description |
+|---|---|
+| `pdbid` | Identifier linking the structure to the Protein Data Bank (PDB) |
+| `name` | Name or description of the protein structure |
+| `family_name_cache` | Protein family classification |
+| `species_name_cache` | Organism associated with the structure |
+| `membrane_name_cache` | Membrane environment associated with the structure |
+| `thickness` | Estimated membrane thickness |
+| `tilt` | Protein orientation/tilt relative to the membrane |
+| `subunit_segments` | Number of membrane-spanning segments |
+| `gibbs` | Gibbs free-energy value supplied by the dataset |
+| `resolution` | Original structural resolution information |
+| `resolution_numeric` | Cleaned numerical representation of structural resolution |
+| `uniprotcode` | UniProt identifier where available |
+
+### Dataset Size
+
+After data cleaning, the dataset used for analysis contains **8,914 records and 29 variables**.
+
+Not every variable is used in the exploratory analysis. Variables were selected according to their relevance to the four research questions.
 
 ## Template Instructions
 
