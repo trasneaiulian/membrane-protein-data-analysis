@@ -103,6 +103,34 @@ The dataset also contains a Gibbs free-energy variable (`gibbs`).
 In this project, Gibbs free energy is treated as a numerical structural property supplied by the source dataset. Relationships between this variable and other structural properties are explored statistically without assuming that correlation represents a causal biological mechanism.
 
 
+## Project Objectives
+
+The overall objective of this project is to explore a large membrane protein structural dataset and identify understandable patterns in its composition and structural properties.
+
+The specific objectives are to:
+
+- clean and prepare the original dataset for reliable analysis;
+- identify the most represented membrane environments;
+- identify the most represented protein families;
+- compare structural properties across different membrane environments;
+- investigate whether structural complexity is associated with structural resolution;
+- identify relationships between numerical structural properties;
+- visualise the findings clearly;
+- and communicate the results in a way that can be understood without specialist knowledge of structural biology.
+
+## Research Questions
+
+The exploratory analysis addresses four research questions:
+
+1. **Which membrane environments and protein families are most represented in the dataset?**
+
+2. **How do structural properties such as membrane thickness, protein tilt and structural resolution differ between membrane environments?**
+
+3. **Is structural complexity, represented by the number of membrane-spanning segments, associated with structural resolution?**
+
+4. **Which numerical structural properties show meaningful relationships with each other?**
+
+
 
 ## Template Instructions
 
