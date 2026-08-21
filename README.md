@@ -290,6 +290,27 @@ Among records with numerical resolution information, median resolution values fo
 
 These findings indicate that structural properties are associated with membrane environment, although they do not demonstrate that membrane environment directly causes these differences.
 
+### 3. Is structural complexity associated with structural resolution?
+
+The number of membrane-spanning segments was used as an approximate indicator of structural complexity.
+
+Among the 7,575 records containing both membrane-spanning segment information and numerical structural resolution, the distributions were strongly skewed.
+
+Seventy-five percent of these structures contain 24 or fewer membrane-spanning segments, while a small number of highly complex structures contain substantially more, reaching a maximum of 389 segments.
+
+Two correlation approaches were used:
+
+- **Pearson correlation: 0.197**
+- **Spearman correlation: 0.445**
+
+The Pearson result indicates a weak positive linear relationship.
+
+The stronger Spearman result indicates a moderate positive monotonic relationship. In other words, structures containing more membrane-spanning segments generally tend to have higher numerical resolution values, although the relationship is not strongly linear.
+
+Because a higher resolution value in Å corresponds to lower structural detail, the result suggests that structurally more complex membrane proteins tend, on average, to be resolved at somewhat lower structural detail.
+
+This relationship should be interpreted as an association rather than evidence that structural complexity directly causes lower structural resolution.
+
 
 ## Template Instructions
 
