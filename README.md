@@ -487,6 +487,20 @@ Jupyter notebooks are used to combine executable Python code, analytical results
 
 Git is used for version control and GitHub is used to store and document the project repository.
 
+### AI-Assisted Development
+
+AI tools were used selectively during the development of this project as a supporting resource.
+
+AI assistance was mainly used for:
+
+- clarifying Python and Pandas syntax when needed;
+- troubleshooting errors during notebook development;
+- suggesting approaches for data visualisation and presentation;
+- improving the clarity and structure of Markdown documentation;
+- and reviewing explanations for readability.
+
+The data-cleaning decisions, selection of research questions, interpretation of the dataset, and final analytical decisions were reviewed and implemented by the project author. AI-generated suggestions were not treated as results and were checked against the actual dataset before being included in the project.
+
 ## Development Notes
 
 Git and GitHub were used for version control throughout the project. During the early stages of development, several changes were grouped into larger commits rather than committed individually. As the project progressed, a more granular approach to version control was adopted, with smaller and more descriptive commits used to document individual changes and improvements.
