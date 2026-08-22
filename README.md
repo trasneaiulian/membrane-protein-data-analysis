@@ -487,6 +487,9 @@ Jupyter notebooks are used to combine executable Python code, analytical results
 
 Git is used for version control and GitHub is used to store and document the project repository.
 
+## Development Notes
+
+Git and GitHub were used for version control throughout the project. During the early stages of development, several changes were grouped into larger commits rather than committed individually. As the project progressed, a more granular approach to version control was adopted, with smaller and more descriptive commits used to document individual changes and improvements.
 
 ## Future Work
 
