@@ -523,6 +523,38 @@ One particularly interesting extension would be to connect the structural datase
 
 These extensions are outside the current project's scope but provide clear directions for further analysis.
 
+## Data Source and Credits
+
+### Dataset
+
+The dataset used in this project was obtained from the **OPM (Orientations of Proteins in Membranes) database**, maintained by the University of Michigan.
+
+OPM provides structural information about proteins associated with biological membranes, including their positioning and orientation relative to the membrane.
+
+For this project, the **proteins dataset** was downloaded from the OPM download page:
+
+https://opm.phar.umich.edu/download
+
+The original dataset was subsequently cleaned and prepared for analysis within this project. All analyses, transformations and visualisations presented in the project were performed on the downloaded OPM data.
+
+### Project Template
+
+The initial repository structure was based on the **Code Institute Data Analytics project template**.
+
+The template provided the basic project structure and configuration files used to begin the project. The original template README instructions were replaced with documentation specific to this membrane protein data analysis project.
+
+Code Institute Data Analytics template:
+
+https://github.com/Code-Institute-Org/data-analytics-template
+
+### Acknowledgements
+
+This project was completed as part of the **Code Institute Data Analytics with AI programme**.
+
+Guidance provided during the course was used to improve the organisation, documentation, version-control practices and presentation of the project.
+
+AI tools were used selectively as a supporting resource during development, as described in the Technologies Used section. Analytical decisions and final interpretations were reviewed against the actual dataset before inclusion in the project.
+
 
 
 ## Template Instructions
