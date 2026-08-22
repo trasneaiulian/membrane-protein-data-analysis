@@ -450,6 +450,45 @@ conclusions;
 limitations;
 and potential next steps.
 
+## Technologies Used
+
+### Python
+
+Python is the main programming language used for data preparation and analysis.
+
+### Pandas
+
+Pandas is used for:
+
+- loading tabular data;
+- cleaning and transforming variables;
+- handling missing values;
+- grouping observations;
+- calculating descriptive statistics;
+- and preparing data for visualisation.
+
+### NumPy
+
+NumPy supports numerical operations used during data preparation and analysis.
+
+### Matplotlib
+
+Matplotlib is used to create and customise data visualisations.
+
+### Seaborn
+
+Seaborn is used for statistical visualisations including violin plots, scatter plots and correlation heatmaps.
+
+### Jupyter Notebook
+
+Jupyter notebooks are used to combine executable Python code, analytical results, visualisations and written interpretation in a reproducible workflow.
+
+### Git and GitHub
+
+Git is used for version control and GitHub is used to store and document the project repository.
+
+
+
 
 
 ## Template Instructions
