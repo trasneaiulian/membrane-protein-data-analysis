@@ -419,6 +419,7 @@ membrane-protein-data-analysis/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 
 ## Technologies Used
@@ -484,6 +485,7 @@ To run the project locally:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Development Notes
 
