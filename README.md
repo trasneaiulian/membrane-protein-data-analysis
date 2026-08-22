@@ -420,35 +420,6 @@ membrane-protein-data-analysis/
 ├── README.md
 └── requirements.txt
 
-Jupyter Notebooks
-01_data_cleaning.ipynb
-
-Contains the data-cleaning workflow, including:
-
-initial inspection of the dataset;
-missing-value investigation;
-PDB identifier cleaning;
-structural resolution preparation;
-duplicate investigation;
-text-field cleaning;
-numerical validation;
-and export of the cleaned dataset.
-02_data_analysis.ipynb
-
-Contains the exploratory data analysis, including:
-
-dataset overview;
-research questions;
-membrane-environment analysis;
-protein-family analysis;
-comparison of structural properties;
-structural complexity and resolution analysis;
-Pearson and Spearman correlation analysis;
-visualisations;
-interpretations;
-conclusions;
-limitations;
-and potential next steps.
 
 ## Technologies Used
 
@@ -487,6 +458,7 @@ Jupyter notebooks are used to combine executable Python code, analytical results
 
 Git is used for version control and GitHub is used to store and document the project repository.
 
+
 ### AI-Assisted Development
 
 AI tools were used selectively during the development of this project as a supporting resource.
@@ -500,6 +472,18 @@ AI assistance was mainly used for:
 - and reviewing explanations for readability.
 
 The data-cleaning decisions, selection of research questions, interpretation of the dataset, and final analytical decisions were reviewed and implemented by the project author. AI-generated suggestions were not treated as results and were checked against the actual dataset before being included in the project.
+
+## How to Run the Project
+
+To run the project locally:
+
+1. Clone the GitHub repository to your computer.
+2. Open the project folder in VS Code or another compatible development environment.
+3. Create and activate a Python virtual environment.
+4. Install the required Python packages using:
+
+```bash
+pip install -r requirements.txt
 
 ## Development Notes
 
