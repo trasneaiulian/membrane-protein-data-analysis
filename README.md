@@ -488,6 +488,23 @@ Jupyter notebooks are used to combine executable Python code, analytical results
 Git is used for version control and GitHub is used to store and document the project repository.
 
 
+## Future Work
+
+This project focuses on exploratory structural analysis. Several extensions could provide additional biological and therapeutic context.
+
+Potential future work includes:
+
+- linking structures to additional UniProt functional annotations;
+- incorporating disease associations;
+- identifying known therapeutic or drug targets;
+- integrating ligand and drug-binding information;
+- comparing experimental methods with achievable structural resolution;
+- investigating individual membrane-protein families in greater detail;
+- and examining whether structural characteristics differ between therapeutic targets and other membrane proteins.
+
+One particularly interesting extension would be to connect the structural dataset with disease and drug-target databases. This could help investigate whether proteins of therapeutic interest occupy particular membrane environments or share structural characteristics.
+
+These extensions are outside the current project's scope but provide clear directions for further analysis.
 
 
 
